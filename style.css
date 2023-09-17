@@ -629,7 +629,7 @@ nav li ul a:hover
 .p3bio
 {
     width: 70vw;
-    padding-right: 30px;
+    padding-right: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
