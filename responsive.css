@@ -1,0 +1,803 @@
+/* @media screen and (min-width: 992px) {
+
+    header>nav>.left {
+        margin-left: -2vw;
+    }
+
+    header>nav>.left>a {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .skills {
+        height: 121vh;
+    }
+
+    .row span {
+        font-size: 15px;
+    }
+
+    .projects {
+        height: 218vh;
+    }
+
+    .clockimage>img {
+        width: 150px;
+    }
+
+    .p1>a {
+        margin: -15px;
+        font-size: .1px;
+    }
+
+    .todoimage>img {
+        width: 150px;
+
+    }
+
+    .p2 {
+        margin-left: -25px;
+    }
+
+    .davidimage>img {
+        width: 10%;
+
+    }
+
+    #margin {
+        padding-left: 70vw;
+    }
+
+    .clockbio {
+        font-size: 13px;
+    }
+
+    .p2bio {
+        font-size: 13px;
+    }
+
+    .p3bio {
+        font-size: 13px;
+    }
+
+    .container5 {
+        margin: 70px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+} */
+/* @media screen and (min-width: 993px)
+{
+    .bar
+    {
+        display: none;
+    }
+    .cross
+    {
+        display: none;
+    }
+} */
+@media screen and (max-width:992px) {
+    /* header>nav>.left {
+        margin-left: 10px;
+        margin-top: 25px;
+    } */
+    nav
+    {
+        display: flex;
+        justify-content:center;
+    }
+    header>nav>.left>a {
+        font-size: 15px;
+        font-weight: 900;
+    }
+    header>nav>.left
+    {
+        margin-left: 5vw;
+    }
+
+    .skills {
+        height: 122vh;
+    }
+
+    .row span {
+        font-size: 15px;
+    }
+
+    .bio {
+        width: 100vw;
+        padding: 0 74px;
+    }
+
+    .projects {
+        height: 185vh;
+    }
+
+    .clockimage>img {
+        width: 150px;
+    }
+
+    .clock>.p1>a {
+        font-size: 16px;
+    }
+
+    .lock {
+        font-size: 25px;    
+    }
+
+    .todoimage>img {
+        width: 150px;
+
+    }
+
+    .presume>.resume {
+        font-size: 15px;
+    }
+
+    .p2 {
+        margin-left: -1px;
+    }
+
+    .todocontainer>.p2>a {
+        font-size: 16px;
+    }
+
+    .davidimage>img {
+        width: 150px;
+
+    }
+
+    #margin {
+        padding-left: 70vw;
+    }
+
+    .clockbio {
+        font-size: .9rem;
+        margin-top: -5vh;
+    }
+
+    .pc {
+        height: 41vh;
+    }
+
+    .todo {
+        height: 41vh;
+    }
+
+    .p2bio {
+        font-size: .9rem;
+        margin-top: -5vh;
+    }
+
+    .p3bio {
+        font-size: .9rem;
+    }
+
+    .david {
+        height: 41vh;
+    }
+
+    .davidcontainer>.p3>a {
+        font-size: 16px;
+        margin-left: -25px;
+    }
+
+    .container5 {
+        margin-top: 50px;
+    }
+    .row span p {
+        margin-right: 10px;
+    }
+
+    .row span img {
+        width: 50px;
+        padding: 3px;
+        margin-right: 27px;
+    }
+
+    .container5>.contact2>img {
+        display: none;
+    }
+
+    .container5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact2
+    {
+        display: none;
+    }
+    form {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right,
+                blue,
+                #57059e);
+        display: flex; 
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 100vw;
+        max-width: 600px;
+        border-radius: 10px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 700px) {
+    /* header>nav>.left {
+        margin-left: -40vw;
+    } */
+    nav
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    header>nav>.left>a {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    nav>.right {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 699px) and (min-width: 451px) {
+    nav
+    {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    header>nav>.left>a {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    nav {
+        height: 6vh;
+    }
+
+    nav>.right {
+        display: none;
+    }
+
+    .firstSection>.leftSection>h1 {
+        font-size: 30px;
+    }
+    .small
+    {
+        font-size: 10px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2vw;
+        font-size: 12px;
+        margin-top: 1.5rem;
+        padding: 1rem 3rem;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        justify-content: space-between;
+        margin-top: 80px;
+        width: 2vw;
+
+    }
+    .aboutt
+    {
+        font-size: 1px;
+    }
+    .more {
+        font-size: .8rem;
+    }
+    .resume
+    {
+        height: 1px;
+    }
+    .skills {
+        height: 122vh;
+    }
+
+    .row span {
+        font-size: 15px;
+    }
+
+    .container>.row>span>p {
+        margin-left: -15px;
+    }
+
+    .bio {
+        width: 100vw;
+        padding: 0 74px;
+    }
+
+    .projects {
+        height: 185vh;
+    }
+
+    .clockimage>img {
+        width: 120px;
+    }
+
+    .clock>.p1>a {
+        margin: -8px;
+        font-size: 15px;
+    }
+
+    .lock {
+        font-size: 25px;
+    }
+
+    .todoimage>img {
+        width: 120px;
+
+    }
+
+    .presume>.resume {
+        font-size: 8px;
+    }
+
+    .resume {
+        height: 5vh;
+        width: 15vw;
+    }
+
+    .presume>.resume {
+        font-size: 10px;
+    }
+
+    .row {
+        height: 50vh;
+    }
+
+    .skills {
+        height: 67vh;
+    }
+
+    .row span {
+        margin-top: -40px;
+        font-size: 10px;
+    }
+
+    .row span p {
+        margin-right: 10px;
+    }
+
+    .row span img {
+        width: 30px;
+        padding: 3px;
+        margin-left: 10px;
+        margin-right: 27px;
+    }
+
+    .p2 {
+        margin-left: -1px;
+    }
+
+    .todocontainer>.p2>a {
+        font-size: 15px;
+        margin-left: -15px;
+    }
+
+    .davidcontainer>.davidimage>img {
+        width: 130px;
+
+    }
+
+    #margin {
+        padding-left: 70vw;
+    }
+
+    .clockbio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3vw;
+        font-size: .6rem;
+    }
+
+    .p2bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3vw;
+        font-size: .6rem;
+    }
+
+    .p3bio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3vw;
+        font-size: .6rem;
+        padding: 10vw 2vh;
+    }
+
+    .see {
+        padding-left: 1px;
+        margin-left: -10px;
+    }
+
+    #margin {
+        margin-left: -35px;
+    }
+
+    .davidcontainer {
+        width: 30vw;
+    }
+    .davidcontainer > .p3
+    {
+        margin-left: 10px;
+    }
+    .davidcontainer>.p3>a {
+        font-size: 14px;
+        margin-left: -40px;
+    }
+
+    .container5>.contact2 {
+        display: none;
+    }
+
+    .msgme {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 40px;
+    }
+
+    form {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right,
+                blue,
+                #57059e);
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 100vw;
+        max-width: 600px;
+        border-radius: 10px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 450px) and (min-width: 350px) {
+    
+    nav
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+    header>nav>.left>a {
+        display: none;
+
+    }
+    header>nav>.left
+    {
+        margin-left: 5vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    nav>.right {
+        display: none;
+    }
+
+    .rightSection {
+        margin-top: -88px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2vw;
+        font-size: 12px;
+        margin-top: 1.5rem;
+        padding: 1rem 3rem;
+    }
+
+    .small {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .arrow {
+        margin: 2px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        justify-content: space-between;
+        margin-top: 80px;
+        width: 2vw;
+
+    }
+
+    .firstSection>.leftSection>h1 {
+        font-size: 30px;
+    }
+
+    .skills {
+        height: 65vh;
+    }
+
+    .more {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .more>span {
+        font-size: 10px;
+    }
+
+    .row {
+        height: 50vh;
+    }
+
+    .row span {
+        margin-top: -40px;
+        font-size: 10px;
+    }
+
+    .row span p {
+        margin-right: 10px;
+    }
+
+    .row span img {
+        width: 30px;
+        padding: 3px;
+        margin-left: 10px;
+        margin-right: 27px;
+    }
+
+    .container>.row>span>p {
+        margin-left: -20px;
+    }
+
+    .bio {
+        width: 100vw;
+        padding: 0 74px;
+    }
+
+    .projects {
+        height: 176vh;
+    }
+
+    .pc {
+        height: 41vh;
+    }
+
+    .todo {
+        height: 41vh;
+    }
+
+    .david {
+        height: 41vh;
+    }
+
+    .clockimage>img {
+        width: 100px;
+        margin-top: 6vh;
+        margin-left: 5vw;
+    }
+
+    .clock>.p1 {
+        width: 255%;
+        margin-left: -50px
+    }
+
+    .clock>.p1>a {
+        font-size: 1rem;
+        margin-left: 35px;
+    }
+
+    .todoimage>img {
+        width: 100px;
+        margin-top: 10vh;
+        margin-left: 5vw;
+
+    }
+
+    .aboutme {
+        font-size: 30px;
+    }
+
+    .presume>.resume {
+        font-size: 8px;
+    }
+
+    .resume {
+        height: 5vh;
+        width: 15vw;
+    }
+
+    .Im {
+        font-size: 23px;
+    }
+
+    .fe {
+        font-size: 12px;
+    }
+
+    .sa {
+        font-size: 20px;
+    }
+
+    .p2 {
+        margin-left: -1px;
+    }
+
+    .todocontainer>.p2 {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .todocontainer>.p2>a {
+        font-size: 1rem;
+    }
+
+    .davidcontainer {
+        width: 30vw;
+    }
+
+    .davidcontainer>.p3 {
+        width: 300%;
+        margin-left: -50px
+    }
+
+    .davidcontainer>.davidimage>img {
+        width: 100px;
+        margin-top: 10vh;
+        margin-left: 5vw;
+
+    }
+
+    #margin {
+        padding-left: 70vw;
+    }
+
+    .clockbio {
+        font-size: .5rem;
+        /* margin-top: 4vh;
+        margin-left: -12vw;
+        margin-right: -7vw; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p2bio {
+        font-size: .5rem;
+        padding-left: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p3bio {
+        font-size: .5rem;
+        padding-left: 7vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .see {
+        padding-left: 1px;
+        margin-left: -10px;
+    }
+
+    #margin {
+        margin-left: -35px;
+    }
+
+    .davidcontainer {
+        width: 30vw;
+    }
+
+    .davidcontainer>.p3>a {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+
+    .lock {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .container5>.contact2 {
+        display: none;
+    }
+
+    .container5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .msgme {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+    }
+
+    form {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right,
+                blue,
+                #57059e);
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 70vw;
+        max-width: 600px;
+        border-radius: 10px;
+    }
+
+    form>h3 {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    form input,
+    form textarea {
+        border: 0;
+        margin: 10px 0;
+        padding: 10px;
+        outline: none;
+        background-color: #f7f7f7;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    }
+
+    form button {
+        padding: 10px;
+        background-color: #120354;
+        color: #f7f7f7;
+        font-size: 15px;
+        outline: none;
+        cursor: pointer;
+        width: 120px;
+        margin: 20px auto 0;
+        border-radius: 50px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
