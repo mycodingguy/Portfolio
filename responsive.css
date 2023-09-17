@@ -1,89 +1,4 @@
-/* @media screen and (min-width: 992px) {
-
-    header>nav>.left {
-        margin-left: -2vw;
-    }
-
-    header>nav>.left>a {
-        font-size: 15px;
-        font-weight: 900;
-    }
-
-    .skills {
-        height: 121vh;
-    }
-
-    .row span {
-        font-size: 15px;
-    }
-
-    .projects {
-        height: 218vh;
-    }
-
-    .clockimage>img {
-        width: 150px;
-    }
-
-    .p1>a {
-        margin: -15px;
-        font-size: .1px;
-    }
-
-    .todoimage>img {
-        width: 150px;
-
-    }
-
-    .p2 {
-        margin-left: -25px;
-    }
-
-    .davidimage>img {
-        width: 10%;
-
-    }
-
-    #margin {
-        padding-left: 70vw;
-    }
-
-    .clockbio {
-        font-size: 13px;
-    }
-
-    .p2bio {
-        font-size: 13px;
-    }
-
-    .p3bio {
-        font-size: 13px;
-    }
-
-    .container5 {
-        margin: 70px;
-    }
-
-    footer {
-        margin-top: 50px;
-    }
-} */
-/* @media screen and (min-width: 993px)
-{
-    .bar
-    {
-        display: none;
-    }
-    .cross
-    {
-        display: none;
-    }
-} */
 @media screen and (max-width:992px) {
-    /* header>nav>.left {
-        margin-left: 10px;
-        margin-top: 25px;
-    } */
     nav
     {
         display: flex;
@@ -229,9 +144,6 @@
 }
 
 @media screen and (max-width: 991px) and (min-width: 700px) {
-    /* header>nav>.left {
-        margin-left: -40vw;
-    } */
     nav
     {
         display: flex;
@@ -509,7 +421,7 @@
     }
 
     .rightSection {
-        margin-top: -88px;
+        margin-top: -50px;
     }
 
     .about {
